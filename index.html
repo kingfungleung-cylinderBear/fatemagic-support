@@ -6,25 +6,82 @@
     <title>天命最高 FateMagic - 支援</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #1a1a2e; color: #e0e0e0; line-height: 1.8; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans HK", sans-serif; background: #0d0d0d; color: #e0e0e0; line-height: 1.8; }
         .container { max-width: 700px; margin: 0 auto; padding: 40px 20px; }
-        h1 { color: #ffd700; font-size: 2em; margin-bottom: 10px; }
-        h2 { color: #ffd700; font-size: 1.3em; margin-top: 30px; margin-bottom: 10px; }
+        h1 { color: #ffb800; font-size: 2em; margin-bottom: 6px; }
+        h2 { color: #ffb800; font-size: 1.3em; margin-top: 30px; margin-bottom: 10px; }
+        h3 { color: #ff2d2d; font-size: 1.1em; margin-top: 20px; margin-bottom: 8px; }
         p { margin-bottom: 15px; }
-        a { color: #ffd700; }
-        .subtitle { color: #aaa; font-size: 0.95em; margin-bottom: 30px; }
-        .card { background: #16213e; border-radius: 12px; padding: 25px; margin-top: 20px; }
+        a { color: #ffb800; }
+        .subtitle { color: #ff2d2d; font-size: 1em; margin-bottom: 30px; font-weight: bold; }
+        .card { background: #1a1a1a; border-radius: 16px; padding: 25px; margin-top: 20px; border: 1px solid rgba(255,184,0,0.15); }
         .nav { margin-top: 20px; }
-        .nav a { margin-right: 20px; color: #ffd700; text-decoration: none; border-bottom: 1px solid #ffd700; }
+        .nav a { margin-right: 20px; color: #ffb800; text-decoration: none; border-bottom: 1px solid #ffb800; }
+        .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 15px 0; }
+        .feature-item { background: rgba(255,184,0,0.08); border-radius: 10px; padding: 14px; border: 1px solid rgba(255,184,0,0.12); }
+        .feature-item strong { color: #ffb800; display: block; margin-bottom: 4px; }
+        .feature-item span { color: #aaa; font-size: 0.9em; }
+        .disclaimer { color: #888; font-size: 0.85em; margin-top: 30px; padding-top: 20px; border-top: 1px solid #333; }
+        @media (max-width: 500px) { .feature-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>天命最高 FateMagic</h1>
-        <p class="subtitle">AI 面相分析 · 運程預測</p>
+        <p class="subtitle">廟街阿伯 AI 算命 · 用廣東話幫你睇真啲</p>
         <div class="nav">
             <a href="index.html">支援</a>
             <a href="privacy.html">私隱政策</a>
+        </div>
+
+        <div class="card">
+            <h2>關於天命最高</h2>
+            <p>天命最高係一個以香港廟街算命文化為主題嘅 AI 算命 App。我哋用人工智能技術，配合傳統命理學，以地道廣東話口語風格，為你提供各種運程分析。</p>
+            <p>所有分析結果由「廟街算命阿伯」AI 角色以抵死幽默嘅風格呈現，為你帶嚟獨特嘅算命體驗。</p>
+
+            <h2>功能一覽</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <strong>面相分析</strong>
+                    <span>影張相即刻幫你睇面相</span>
+                </div>
+                <div class="feature-item">
+                    <strong>掌相分析</strong>
+                    <span>影隻手幫你睇掌紋</span>
+                </div>
+                <div class="feature-item">
+                    <strong>紫微斗數</strong>
+                    <span>排命盤睇流年運程</span>
+                </div>
+                <div class="feature-item">
+                    <strong>八字批命</strong>
+                    <span>出生年月日時批命</span>
+                </div>
+                <div class="feature-item">
+                    <strong>星座分析</strong>
+                    <span>十二星座運程分析</span>
+                </div>
+                <div class="feature-item">
+                    <strong>韓式四柱</strong>
+                    <span>韓式四柱推命法</span>
+                </div>
+                <div class="feature-item">
+                    <strong>姓名學</strong>
+                    <span>你個名有乜玄機</span>
+                </div>
+                <div class="feature-item">
+                    <strong>愛情配對</strong>
+                    <span>兩個人夾唔夾</span>
+                </div>
+                <div class="feature-item">
+                    <strong>求簽</strong>
+                    <span>觀音靈簽線上求</span>
+                </div>
+                <div class="feature-item">
+                    <strong>今日運程</strong>
+                    <span>每日運勢速睇</span>
+                </div>
+            </div>
         </div>
 
         <div class="card">
@@ -34,28 +91,40 @@
 
             <h2>常見問題</h2>
 
-            <h2>訂閱相關</h2>
-            <p><strong>如何訂閱高級會員？</strong><br>
-            在應用程式內點選「訂閱」按鈕，即可透過 Apple App Store 或 Google Play Store 完成訂閱。</p>
+            <h3>訂閱相關</h3>
+            <p><strong>VIP 會員有咩好處？</strong><br>
+            VIP 會員享有每月 30 次面相分析、無限免費額外分析（紫微斗數、八字、星座等）、每月 5 次愛情配對、以及無強制廣告嘅體驗。</p>
+
+            <p><strong>如何訂閱 VIP？</strong><br>
+            喺 App 入面撳「VIP會員」按鈕，即可透過 Apple App Store 或 Google Play Store 完成訂閱。</p>
 
             <p><strong>如何取消訂閱？</strong><br>
-            你可以在應用程式的個人檔案頁面中點選「管理訂閱」，或按以下步驟操作：</p>
+            你可以喺 App 嘅個人檔案頁面撳「管理訂閱」，或者按以下步驟操作：</p>
             <p><strong>iOS（iPhone / iPad）：</strong><br>
-            前往「設定」→ 點選你的名字 → 「訂閱項目」→ 選擇「天命最高 FateMagic」→ 「取消訂閱」。</p>
+            前往「設定」→ 撳你個名 → 「訂閱項目」→ 揀「天命最高 FateMagic」→ 「取消訂閱」。</p>
             <p><strong>Android：</strong><br>
-            開啟 Google Play 商店 → 點選右上角頭像 → 「付款和訂閱」→「訂閱」→ 選擇「天命最高 FateMagic」→ 「取消訂閱」。</p>
-            <p>訂閱取消後，你仍可在當前計費週期結束前繼續使用高級功能。</p>
+            開啟 Google Play 商店 → 撳右上角頭像 → 「付款和訂閱」→「訂閱」→ 揀「天命最高 FateMagic」→ 「取消訂閱」。</p>
+            <p>取消訂閱之後，你仲可以喺當前計費週期完結前繼續用 VIP 功能。</p>
 
             <p><strong>如何恢復購買？</strong><br>
-            在應用程式的個人檔案頁面中，點選「恢復購買」按鈕即可。</p>
+            喺 App 嘅個人檔案頁面，撳「恢復購買」按鈕即可。</p>
 
-            <h2>功能相關</h2>
-            <p><strong>面相分析如何運作？</strong><br>
-            本應用使用人工智能技術分析面部特徵，結合傳統命理學提供運程參考。分析結果僅供娛樂參考，不構成任何專業建議。</p>
+            <h3>功力（Mana）系統</h3>
+            <p><strong>咩係功力？</strong><br>
+            功力係 App 入面嘅虛擬貨幣。免費用戶可以透過觀看廣告獲得功力，用嚟解鎖額外嘅算命分析。VIP 會員唔需要功力就可以用大部分功能。</p>
 
-            <p><strong>我的照片安全嗎？</strong><br>
-            你的照片僅用於即時分析，不會儲存在我們的伺服器上。詳情請參閱我們的<a href="privacy.html">私隱政策</a>。</p>
+            <h3>功能相關</h3>
+            <p><strong>面相分析點運作？</strong><br>
+            本 App 用人工智能技術分析面部特徵，結合傳統命理學提供運程參考。分析結果僅供娛樂參考，唔構成任何專業建議。</p>
+
+            <p><strong>我嘅相片安全嗎？</strong><br>
+            你嘅相片只會用嚟即時分析，唔會儲存喺我哋嘅伺服器。詳情請參閱我哋嘅<a href="privacy.html">私隱政策</a>。</p>
+
+            <p><strong>點解有時要等好耐？</strong><br>
+            AI 分析需要時間處理，通常需要 30 秒至 2 分鐘。如果等超過 3 分鐘會自動逾時，可以再試一次。</p>
         </div>
+
+        <p class="disclaimer">天命最高 FateMagic 提供嘅所有算命分析結果均由人工智能生成，僅供娛樂及參考用途，唔構成任何專業命理、醫療、財務或法律建議。</p>
     </div>
 </body>
 </html>
